@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Spielfeld extends JFrame {
 
-    public final int BREITE = 6, HOEHE = 6, ZELLENBREITE = 50;
+    public final int BREITE = 25, HOEHE = 15, ZELLENBREITE = 45;
     private final Steuerung dieSteuerung;
 
     public Spielfeld(Steuerung steuerung) {
